@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dark Mode Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="dark_mode_text">Enable/Disable dark mode</string>
+</resources>

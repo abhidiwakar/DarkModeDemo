@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="declaredStyle">
+        <attr name="customBackgroundColor" format="color"/>
+        <attr name="customPrimaryTextColor" format="color"/>
+        <attr name="customSecondaryTextColor" format="color"/>
+        <attr name="customCardBackgroundColor" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="customBackgroundColor">@color/colorPrimary</item>
+        <item name="customPrimaryTextColor">@color/primaryText</item>
+        <item name="customSecondaryTextColor">@color/secondaryText</item>
+        <item name="customCardBackgroundColor">@color/cardBackground</item>
+        <item name="dialogTheme">@style/AlertDialogThemeLight</item>
+        <item name="alertDialogTheme">@style/AlertDialogThemeLight</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--Dark Theme-->
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="customBackgroundColor">@color/colorPrimaryNight</item>
+        <item name="customPrimaryTextColor">@color/primaryTextNight</item>
+        <item name="customSecondaryTextColor">@color/secondaryTextNight</item>
+        <item name="customCardBackgroundColor">@color/cardBackgroundNight</item>
+        <item name="dialogTheme">@style/AlertDialogThemeDark</item>
+        <item name="alertDialogTheme">@style/AlertDialogThemeDark</item>
+    </style>
+
+    <style name="AppThemeDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--Dialog Theme-->
+    <style name="AlertDialogThemeDark" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:background">?attr/customCardBackgroundColor</item>
+        <item name="dialogCornerRadius">10dp</item>
+        <item name="android:textColor">?attr/customPrimaryTextColor</item>
+        <item name="android:textColorPrimary">?attr/customPrimaryTextColor</item>
+    </style>
+
+    <style name="AlertDialogThemeLight" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="dialogCornerRadius">10dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
